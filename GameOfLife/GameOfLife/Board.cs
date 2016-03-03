@@ -32,8 +32,6 @@ namespace GameOfLife
 
         public void Print()
         {
-            //Console.ForegroundColor = ConsoleColor.Cyan;
-            //todo: make it print cells that are ALIVE, DEAD, ABOUT-TO-DIE, and ABOUT-TO-BE-REBORN.
             for (int rows = 0; rows < currentGeneration.GetLength(0); rows++)
             {
                 for (int cols = 0; cols < currentGeneration.GetLength(1); cols++)
@@ -42,7 +40,6 @@ namespace GameOfLife
                 }
                 Console.WriteLine();
             }
-            //Console.ResetColor();
         }
 
 

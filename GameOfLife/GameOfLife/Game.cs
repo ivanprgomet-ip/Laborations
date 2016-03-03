@@ -48,9 +48,6 @@ namespace GameOfLife
         {
             int amountOfNeighbours = 0;
 
-            /*todo: just added more conditions to count neighbours. if a cell
-            is alive or about to die still counts as a valid living cell,
-            and therefore counts as a valid neighbour*/
             if (row != 0)
             {
                 if (inputBoard[row - 1, col].cell == CellCondition.Alive)
